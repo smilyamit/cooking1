@@ -6,7 +6,7 @@ export const ThemeContext = React.createContext()    // it is having 2 parts pro
 
 function App() {
   console.log(" Render APP")
-  const [theme, setTheme] = useState('Red')
+  const [theme, setTheme] = useState('green')
   return (
     <ThemeContext.Provider value = {{ backgroundColor: theme}} >             
     Counter
